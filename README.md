@@ -1,8 +1,8 @@
 # **PrtSc辞書**
 
-A print screen clipboard OCR app with a dictionary interface (client-side and no network connection needed).
+A print screen clipboard OCR app with a dictionary interface (*no network connection needed*).
 
-![gif1](https://github.com/user-attachments/assets/f2ef702e-9a1f-4596-a5ea-fd41b0e7a8c8)
+![gif1](https://github.com/user-attachments/assets/61908e56-75d5-43da-a003-9d0187cb3436)
 
 ![gif2](https://github.com/user-attachments/assets/a278be3d-a355-4767-a445-f35ae9ee524d)
 
@@ -12,9 +12,10 @@ PrtScJisho is a Python application that allows users to capture text from their 
 
 ## **Features**
 
-- OCR for screen captures
+- OCR for screen captures (usable on non-selectable text from images)
 - Dictionary integration for translations and examples (in some cases)
 - Runs entirely client-side
+- Editable text on User Interface
 
 ## **Installation**
 
@@ -52,7 +53,12 @@ The application depends on several Python libraries and tools.
 
 ### Enabling/Disabling
 
-- You can press `F10` or manually right-click the icon on the System Tray and then select **"Toggle Script"**.
+- You can press `F10` or manually right-click the icon on the System Tray and then select **"Toggle Script"**. Please note that when **Toggled ON**, every*ng you print that goes to your clipboard will be considered for the program execution, so if you don't want to have the dictionary interface always opening when you print something, please **Toggle it OFF**.
+
+### Text Selection and User Interface
+
+- You can use the `Win + Shift + S` key combination to target a portion of your screen where the text is at. **Please note that the program doesn't work well with large texts. For this you should manually type or paste the text on the upper textbox inside the user interface**.
+- Sometimes the OCR can detect some parts of the text wrong. In this cases you can manually edit the text.
   
 # **Credits**
 
