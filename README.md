@@ -8,7 +8,7 @@ A print screen clipboard OCR app with a dictionary interface (client-side and no
 
 ## **Description**
 
-PrtScJisho is a Python application that allows users to capture text from their screen using OCR (Optical Character Recognition) and automatically translate or define the text using pre-loaded dictionaries. The application runs entirely client-side and does not require an internet connection.
+PrtScJisho is a Python application that allows users to capture text from their screen using OCR (Optical Character Recognition) and automatically translate or define the text using pre-loaded dictionaries. The application runs entirely client-side and does not require an internet connection. **You can also edit the Clipboard text and even include new text inside the interface**.
 
 ## **Features**
 
