@@ -45,6 +45,8 @@ def ocr_image():
 def monitor_clipboard(root, dictionaries):
     global script_active
     last_image = None
+    current_window = None  # Track the current window
+
     while True:
         if script_active:
             current_image = get_clipboard_image()
@@ -54,8 +56,22 @@ def monitor_clipboard(root, dictionaries):
                 if current_text:
                     with open("resources/ocr_result.txt", "w", encoding="utf-8") as f:
                         f.write(current_text)
-                    root.after(0, display_text_in_gui, current_text, dictionaries)  # Schedule GUI update on the main thread
+                    
+                    # Close the existing window if it exists
+                    if current_window is not None:
+                        current_window.destroy()
+                    
+                    # Schedule GUI update on the main thread and update the current window reference
+                    root.after(0, lambda: update_window(current_text, dictionaries, current_window))
         time.sleep(0.5)
+
+def update_window(text, dictionaries, current_window):
+    # Close the existing window if it exists
+    if current_window is not None:
+        current_window.destroy()
+    
+    # Create a new window and update the reference
+    current_window = display_text_in_gui(text, dictionaries)
 
 def toggle_script(icon, item):
     global script_active

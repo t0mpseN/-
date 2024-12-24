@@ -32,6 +32,9 @@ def main():
     tray_thread.daemon = True
     tray_thread.start()
 
+    # Close the hidden root window
+    root.destroy()
+
     # Start the Tkinter main loop
     root.mainloop()
 
