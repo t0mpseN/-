@@ -1,4 +1,4 @@
-# **PrtScJisho**
+# **PrtSc辞書**
 
 A print screen clipboard OCR app with a dictionary interface (client-side and no network connection needed).
 
@@ -66,4 +66,4 @@ GUI Font - [JetBrains Mono](https://www.jetbrains.com/)
 
 [Sun Valley GUI Theme](https://github.com/rdbende/Sun-Valley-ttk-theme) by rdbende 
 
-System Tray Icon:  <a href="https://www.flaticon.com/free-icons/hiragana" title="hiragana icons">Hiragana icons created by riajulislam - Flaticon</a>
+System Tray Icon - <a href="https://www.flaticon.com/free-icons/hiragana" title="hiragana icons">Hiragana icons created by riajulislam - Flaticon</a>
