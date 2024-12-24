@@ -1,0 +1,11 @@
+Manga OCR: https://github.com/kha-white/manga-ocr
+
+Dictionary: https://github.com/scriptin/jmdict-simplified
+
+GUI Font: https://www.jetbrains.com/
+
+GUI Template: https://www.akascape.com/coding/rounded-corner-window-in-python-tkinter
+
+GUI Theme: https://github.com/rdbende/Sun-Valley-ttk-theme
+
+System Tray Icon:  <a href="https://www.flaticon.com/free-icons/hiragana" title="hiragana icons">Hiragana icons created by riajulislam - Flaticon</a>
