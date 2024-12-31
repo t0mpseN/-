@@ -45,6 +45,17 @@ The application depends on several Python libraries and tools.
     install_dependencies.bat
     ```
 
+5. **(OPTIONAL)** Add PrtScJisho to startup apps:
+
+    a. Press the `Windows key + R` to open the **Run command**;
+   
+    b. Type `shell:startup`;
+   
+    c. Create or paste a shortcut to start.vbs in the folder that opened after `b)` (*C:\Users\[USER]\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup*);
+   
+    d. The next time you restart your computer, the app should automatically start.
+   
+
 ## Usage
 
 ### Running the Application
